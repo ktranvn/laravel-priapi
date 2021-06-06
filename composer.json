@@ -1,12 +1,12 @@
 {
     "name": "ktran/priapi",
     "keywords": ["laravel", "ktran", "api"],
-    "description": "A Laravel Package private api",
+    "description": "PRIAPI - API Testing tool for Laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "Kevin",
-            "email": "tranthaidnvn@gmail.com"
+            "email": "tranthai@enjoyworks.co.kr"
         }
     ],
     "require": {
