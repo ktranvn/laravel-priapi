@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFF;
+  font-family: Roboto; }
+
+.main-login {
+  min-height: 100vh;
+  position: relative; }
+
+.content-form-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.main-login .main-form-login {
+  width: 450px; }
+
+.main-login .form-login {
+  margin-top: 50px; }
+  .main-login .form-login .item-title-form-lg {
+    display: flex;
+    align-items: center; }
+    .main-login .form-login .item-title-form-lg label {
+      font-weight: 400;
+      color: #000000;
+      font-family: Roboto;
+      font-size: 14px; }
+  .main-login .form-login .form-control {
+    min-height: 37px !important; }
+  .main-login .form-login .btn-submit {
+    min-height: 46px; }
+
+.main-login .item-buttom-form-lg {
+  margin-top: 40px; }
+  .main-login .item-buttom-form-lg .btn-submit {
+    color: white;
+    background: #18AD00;
+    border-radius: inherit;
+    border: none; }

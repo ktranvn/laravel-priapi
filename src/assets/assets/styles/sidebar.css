@@ -1,0 +1,88 @@
+.main-left-menu-text {
+  background: #18AD00;
+  padding-left: 10px; }
+  .main-left-menu-text .content-title-sidebar {
+    font-size: 14px;
+    padding: 11px 0;
+    color: white;
+    line-height: 16px; }
+  .main-left-menu-text .dropdown {
+    display: inline-block; }
+    .main-left-menu-text .dropdown > span {
+      display: block;
+      padding: 5px 10px;
+      cursor: pointer; }
+      .main-left-menu-text .dropdown > span:after {
+        display: none; }
+    .main-left-menu-text .dropdown a {
+      font-size: 12px;
+      cursor: pointer; }
+
+.main-dashboard .main-title-logo h2 {
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 24px; }
+  .main-dashboard .main-title-logo h2 strong {
+    font-size: 24px;
+    line-height: 28px; }
+
+.main-db-left .main-title-logo {
+  padding: 10px 10px 5px;
+  display: flex;
+  align-items: center; }
+
+.main-menu-sidebar > ul {
+  padding: 0; }
+  .main-menu-sidebar > ul ul {
+    padding-left: 30px; }
+  .main-menu-sidebar > ul li {
+    list-style: none; }
+    .main-menu-sidebar > ul li.folder > span a {
+      font-weight: bold; }
+    .main-menu-sidebar > ul li > span {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .main-menu-sidebar > ul li > span a {
+        display: inline-block;
+        font-size: 13px;
+        cursor: pointer;
+        padding: 5px 15px;
+        color: #000;
+        text-decoration: none; }
+        .main-menu-sidebar > ul li > span a .request_method {
+          border-radius: 4px;
+          font-size: 8px;
+          font-weight: bold;
+          padding: 3px 4px; }
+      .main-menu-sidebar > ul li > span:hover {
+        background: #d8e4c8; }
+        .main-menu-sidebar > ul li > span:hover > .dropdown > span {
+          display: block; }
+      .main-menu-sidebar > ul li > span .dropdown {
+        display: inline-block; }
+        .main-menu-sidebar > ul li > span .dropdown > span {
+          display: none;
+          padding: 5px 10px;
+          cursor: pointer; }
+          .main-menu-sidebar > ul li > span .dropdown > span:after {
+            display: none; }
+        .main-menu-sidebar > ul li > span .dropdown ul {
+          padding: 0; }
+    .main-menu-sidebar > ul li input + span {
+      border: 1px solid #ffe1e1;
+      background: #dc3545;
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      color: #FFF;
+      cursor: pointer; }
+      .main-menu-sidebar > ul li input + span + span {
+        border: 1px solid #5ffb46;
+        background: #18ad00;
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 4px;
+        color: #FFF;
+        cursor: pointer; }

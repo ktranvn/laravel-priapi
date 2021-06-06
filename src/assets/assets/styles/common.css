@@ -1,0 +1,138 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFF;
+  font-size: 10px; }
+
+select, input {
+  font-size: 10px; }
+
+.form-select {
+  font-size: 10px; }
+
+.form-control {
+  font-size: 10px; }
+
+.w-auto {
+  width: auto; }
+
+.float-right {
+  float: right; }
+
+.ml-15px {
+  margin-left: 15px; }
+
+.mr-15px {
+  right: 15px; }
+
+.m-5 {
+  margin: 5em; }
+
+.font-weight-bold {
+  font-weight: bold; }
+
+.w-100 {
+  width: 100%; }
+
+.border-none {
+  border: none; }
+
+.bg-blue {
+  background: #3173D8; }
+
+.ml-1 {
+  margin-left: 1rem; }
+
+.ml-2 {
+  margin-left: 2rem; }
+
+.ml-3 {
+  margin-left: 3rem; }
+
+.ml-4 {
+  margin-left: 4rem; }
+
+.ml-5 {
+  margin-left: 5rem; }
+
+.mr-1 {
+  margin-right: 1rem; }
+
+.mr-2 {
+  margin-right: 2rem; }
+
+.mr-3 {
+  margin-right: 3rem; }
+
+.mr-4 {
+  margin-right: 4rem; }
+
+.mr-5 {
+  margin-right: 5rem; }
+
+.pl-0 {
+  padding-left: 0 !important; }
+
+.pr-0 {
+  padding-right: 0 !important; }
+
+.pr-1 {
+  padding-right: 1rem !important; }
+
+.pl-5px {
+  padding-left: 5px !important; }
+
+.ml-20px {
+  margin-left: 20px; }
+
+.ml-15px {
+  margin-left: 15px; }
+
+.main-title-logo {
+  min-height: 72px; }
+  .main-title-logo h2 {
+    text-align: center;
+    font-size: 36px; }
+  .main-title-logo .text-right-login {
+    color: #18AD00;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900; }
+  .main-title-logo .text-left-login {
+    color: #000000;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900; }
+
+.select-cus {
+  position: relative; }
+  .select-cus svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    height: 15px;
+    width: 10px;
+    pointer-events: none; }
+
+select {
+  background-image: none !important; }
+
+.opacity-0 {
+  opacity: 0; }
+
+.GET {
+  background: #d2ffe7 !important;
+  color: #1aad00 !important; }
+
+.POST {
+  background: #cae9ff !important;
+  color: #001bde !important; }
+
+.PUT {
+  background: #f8ffd2 !important;
+  color: #b36b00 !important; }
+
+.DELETE {
+  background: #ffd3d3 !important;
+  color: #d40000 !important; }

@@ -1,0 +1,37 @@
+{
+    "name": "ktran/priapi",
+    "keywords": ["laravel", "ktran", "api"],
+    "description": "A Laravel Package private api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin",
+            "email": "tranthaidnvn@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.5|^6|^7|^8",
+        "maatwebsite/excel": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ktran\\Priapi\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ktran\\Priapi\\PriapiServiceProvider"
+            ],
+            "aliases": {
+                "Priapi": "Ktran\\Priapi"
+            }
+        }
+    },
+
+    "minimum-stability": "dev"
+}
