@@ -10,7 +10,6 @@ class PriapiController extends Controller
         $_secretKey = config("priapi.secret_key");
         $_clientKey = config("priapi.client_key");
         $_token = ($_clientKey == $request->clientKey) ? genToken(['role'=>"editor"], $_secretKey): "";
-        dd($_token);
         return view("priapi::index", compact('_secretKey', '_token', 'request'));
     }
 
