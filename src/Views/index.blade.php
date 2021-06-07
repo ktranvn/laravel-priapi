@@ -19,7 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <link rel="stylesheet" href="/vendor/ktran/priapi/assets/styles/styles.css" />
     <style>
         input:focus,
         select:focus,
@@ -36,7 +36,7 @@
             _b = "{{$_secretKey}}"
 
     </script>
-    <link href="/static/css/main.6dea0f05.chunk.css" rel="stylesheet">
+    <link href="/vendor/ktran/priapi/static/css/main.6dea0f05.chunk.css" rel="stylesheet">
 </head>
 
 <body><noscript>You need to enable JavaScript to run this app.</noscript>
@@ -171,8 +171,8 @@
         }([])
 
     </script>
-    <script src="/static/js/2.32c381a8.chunk.js"></script>
-    <script src="/static/js/main.c1aef628.chunk.js"></script>
+    <script src="/vendor/ktran/priapi/static/js/2.32c381a8.chunk.js"></script>
+    <script src="/vendor/ktran/priapi/static/js/main.c1aef628.chunk.js"></script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@ class PriapiController extends Controller
     function index(\Illuminate\Http\Request $request){
         $_secretKey = config("priapi.secret_key");
         $_clientKey = config("priapi.client_key");
-        $_token = ($_clientKey == $request->clientKey) ? genToken(['role'=>"editor"], $_secretKey): "";
+        $_token = ($_clientKey == $request->clientKey) ? genToken(['role'=>"editor"], $_secretKey): genToken(['role'=>"editor"], null);
         return view("priapi::index", compact('_secretKey', '_token', 'request'));
     }
 
