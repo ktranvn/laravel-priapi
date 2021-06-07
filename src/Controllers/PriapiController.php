@@ -7,8 +7,10 @@ use Ktran\Priapi\Models\Request;
 class PriapiController extends Controller
 {
     function index(\Illuminate\Http\Request $request){
-//        if($request->has('secret_key') == config('priapi.secret'))
-        return view("priapi::index");
+        $_secretKey = config("priapi.secret_key");
+        $_clientKey = config("priapi.client_key");
+        $_token = ($_clientKey == $request->clientKey) ? genToken(['role'=>"editor"], $_secretKey): genToken(['role'=>"editor"], null);
+        return view("priapi::index", compact('_secretKey', '_token', 'request'));
     }
 
     function getRequest(\Illuminate\Http\Request $rq){
@@ -32,7 +34,6 @@ class PriapiController extends Controller
 
     function updateRequest(\Illuminate\Http\Request $rq){
         $data = $rq->only(["name", "description",  "request_type", "uri"]);
-//        ddcors($data);
         if(empty($rq->name))
             return response()->json(false, 422);
         if($rq->has('request_header')){
@@ -44,7 +45,6 @@ class PriapiController extends Controller
         if($rq->has('request_body')){
             $data['request_body'] = str_replace(":null", ":\"\"", str_replace(":[]", ":\"\"", json_encode($rq->request_body)));
         }
-//        ddcors($data);
         Request::where('id', $rq->id)->update($data);
         return response()->json(true);
     }
@@ -55,7 +55,6 @@ class PriapiController extends Controller
     }
 
     function test(\Illuminate\Http\Request $request){
-//        ddcors($request->all());
         return response()->json($request->all());
     }
 }
